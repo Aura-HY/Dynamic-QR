@@ -1,0 +1,17 @@
+
+### 获取用户列表
+
+POST http://127.0.0.1:56565/api/user/login
+Content-Type: application/json
+
+{
+    "userId": "11",
+    "password": "22"
+}
+
+
+### 获取用户详细信息
+POST http://127.0.0.1:56565/api/user/getWord
+Content-Type: application/json
+
+
