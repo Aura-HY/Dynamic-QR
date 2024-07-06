@@ -5,3 +5,8 @@ exports.getWordDetal = async (wordName) => {
     return wordMeaning;
 };
 
+// 获取单个二维码详情信息
+exports.getQRCodeDetail = async (qrcodeName) => {
+    const qrcodeDetail = await userDao.getQRCodeDetail(qrcodeName);
+    return qrcodeDetail[0];
+};

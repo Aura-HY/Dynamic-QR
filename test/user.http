@@ -1,12 +1,11 @@
 
 ### 获取用户列表
 
-POST http://127.0.0.1:56565/api/user/login
+POST http://127.0.0.1:56565/api/user/detail
 Content-Type: application/json
 
 {
-    "userId": "11",
-    "password": "22"
+    "qrcodeName": 11
 }
 
 
